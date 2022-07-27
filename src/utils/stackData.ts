@@ -4,7 +4,7 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
+import { SiMaterialui } from "react-icons/si";
 
 export const stackData = [
   {
@@ -31,5 +31,8 @@ export const stackData = [
     title: "React",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
+  {
+    title: "Material-ui",
+    img: SiMaterialui,
+  }
 ];
