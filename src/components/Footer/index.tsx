@@ -9,7 +9,7 @@ import { HandEffect } from "../HandEffect";
 
 export const Footer = (): JSX.Element => {
   return (
-    <FooterWrapper id="social-media">
+    <FooterWrapper id="about-me">
       <Container>
         <Flex>
           <UserImage
@@ -21,11 +21,14 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Thank you!{" "}
+              Obrigado!{" "}
              <HandEffect />
             </Text>
             <Text type="body1" color="grey2">
-              Follow me on my social networks and let's talk
+              Siga me nas redes sociais para uma conversa, caso queira saber um pouco mais sobre mim aqui esta!
+            </Text>
+            <Text type="body1" color="grey2">
+              Desde 2017 venho estudando desenvolvimento e programação começando com java, mas foi apenas em 2022 que comecei a desenvolver com maior qualidade seguindo o programa de estudos da kenzie academy revendo tudos os conceitos eu estudei e me aprimorando a cada semana. Por fim minha paixão com desenvolvimento é simples, idealizar, moldar e construir as ideias para ve-las funcionar é lindo e algo que eu me divirto fazendo.
             </Text>
           </Box>
         </Flex>
